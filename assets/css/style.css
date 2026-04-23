@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@200..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@200..700&display=swap");
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@ body{
   font-family: "Lato", sans-serif;
 }
 
-header{
+header {
   background-color: #ffffff;
   padding: 0 1rem;
   position: fixed;
@@ -26,70 +26,67 @@ header{
   align-items: baseline;
 }
 
-
-header a{
+header a {
   text-decoration: none;
   color: inherit;
 }
 
-h1{
+h1 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #252525;
 }
 
-#menu{
+#menu {
   font-size: 110%;
   letter-spacing: 4px;
   list-style-type: none;
 }
 
-#menu > li{
+#menu > li {
   margin-bottom: 1rem;
 }
 
-.active{
+.active {
   border-bottom: 1px solid #3a3a3a;
 }
 
-nav{
+nav {
   position: absolute;
   background-color: #ffffff;
   width: 100%;
   left: 0;
   padding: 0 1rem;
   box-shadow: 0 2px 2px #3a3a3a;
-  display:none;
-  top:100%;
+  display: none;
+  top: 100%;
 }
 
-#nav-toggle:checked~nav{
+#nav-toggle:checked ~ nav {
   display: block;
 }
 
-#nav-toggle{
+#nav-toggle {
   display: none;
 }
 
-.nav-toggle-label{
+.nav-toggle-label {
   font-size: 2rem;
 }
 
-
-main{
+main {
   background-color: lightblue;
   flex: 1 0 auto;
   margin-top: 47px;
 }
 
-
-footer{
+footer {
   background-color: orange;
 }
 
 @media screen and (min-width: 768px) {
-  nav{
+  nav {
     display: block;
     position: relative;
     box-shadow: none;
@@ -97,15 +94,25 @@ footer{
     padding-right: 1rem;
   }
 
-  #menu{
+  #menu {
     display: flex;
   }
-  
-  #menu > li{
+
+  #menu > li {
     padding-left: 1rem;
   }
 
-  .nav-toggle-label{
+  .nav-toggle-label {
     display: none;
+  }
+
+  #logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+  }
+
+  main{
+    margin-top: 79px;
   }
 }
