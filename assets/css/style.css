@@ -97,7 +97,7 @@ main {
 
 #cover-text {
   background-color: rgba(241, 109, 107, 0.7);
-  font-size: 130;
+  font-size: 130em;
   position: absolute;
   bottom: 30px;
   width: 80%;
@@ -265,7 +265,7 @@ main {
     column-count: 2;
     column-gap: 0;
   }
-
+}
 /* Media query: tablet and larger (768 un up) */
 @media screen and (min-width: 768px) {
   nav {
@@ -362,6 +362,7 @@ main {
   }
 }
 
+
 @media screen and (min-width: 1200px) {
   /* Reason section */
   #benefits {
@@ -388,6 +389,4 @@ main {
   #benefits-physical > div {
     align-self: flex-end;
   }
-  
-
 }
