@@ -1,22 +1,32 @@
-# Love Running Project 🏃‍♂️
+# 🏃‍♂️ Love Running Project
 
-This is my **first project** built with **HTML & CSS** as part of the **Full Stack Web Development with AI** course at **Code Institute**, studied through **Westminster Adult Education Service (WAES)** in London.
+<div align="center">
 
-## 🎯 Project Goal
-The primary objective of this project was to implement **Responsive Web Design**. I focused on ensuring the website provides a seamless user experience across all devices, from small mobile screens to large desktop monitors.
+![Stars](https://img.shields.io/github/stars/ShahoRasooli/love-running?style=for-the-badge&color=ff69b4)
+![Forks](https://img.shields.io/github/forks/ShahoRasooli/love-running?style=for-the-badge&color=blue)
 
-## 🔗 Live Demo
-You can see the project in action here:
-### **[View Live Demo](https://shahorasooli.github.io/love-running/)**
+### 🔗 **[View Live Demo](https://shahorasooli.github.io/love-running/)**
+</div>
 
 ---
 
-### 🛠️ Technologies Used
-* **HTML5:** For structured content.
-* **CSS3:** For custom styling and layout.
-* **Flexbox/Grid:** To achieve a fully responsive design.
+## 📖 About
+This is my first project built using **HTML & CSS** during my course at **Code Institute** (via **Westminster Adult Education Service**, London). 
 
-### 🎓 Education Context
-* **Institution:** Westminster Adult Education Service (London)
-* **Partner:** Code Institute
-* **Course:** Full Stack Web Development with AI
+## 🎯 What I practiced
+* **Responsive Design:** Making sure the website looks good on both mobile phones and desktop screens.
+* **Layouts:** Using CSS tools like Flexbox and Grid to position elements.
+* **Basic Web Skills:** Learning how to structure a page correctly with HTML.
+
+## 🛠️ Tools
+* HTML5
+* CSS3
+
+## 💻 How to see the code
+1. Clone the repository: `git clone https://github.com/ShahoRasooli/love-running.git`
+2. Open the `index.html` file in your browser.
+
+---
+
+## 🤝 Support
+If you like this project or it helped you in your learning journey, feel free to give it a ⭐ **Star**!
